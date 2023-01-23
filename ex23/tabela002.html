@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            position: relative;
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        caption{
+            height: 40px;
+            background-color: gray;
+            border: 1px solid black;
+            font-size: 2em;
+            color: white;
+        }
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1> 
+    <!--
+        Anatomia para tabelas grandes
+        Table
+            Thead
+                TR, TD, TH
+            Tbody
+                TR, TD, TH
+            Tfoot
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População dos Estados Brasileiros</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</td>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore accusantium quae aliquam veritatis? Temporibus eius ab similique, quidem eveniet laudantium maiores adipisci quia ipsum impedit vel veniam aperiam? Amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio accusantium molestiae cum alias nihil! Maiores, beatae corrupti pariatur necessitatibus id enim amet fugit ea dicta sed laboriosam iste sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi accusantium, distinctio quasi voluptates suscipit ipsa sequi aut deleniti exercitationem, id vel officia itaque tenetur blanditiis voluptatem dicta velit laudantium?</p>
+    
+</body>
+</html>
