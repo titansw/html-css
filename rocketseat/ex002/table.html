@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.753);
+            color: white;
+        }
+
+        tr,
+        td,
+        th {
+            border: 1px solid;
+
+        }
+
+        td {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Produzidos x Vendidos por Loja</caption>
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: red;">
+            <col span="2" style="background-color: blue;">
+        </colgroup>
+
+        <thead>
+
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Loja 1</th>
+                <th colspan="2">Loja 2</th>
+            </tr>
+            <tr>
+                <th>Produzidos</th>
+                <th>Vendidos</th>
+                <th>Produzidos</th>
+                <th>Vendidos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Produto 1</th>
+                <td>000</td>
+                <td>000</td>
+                <td>000</td>
+                <td>000</td>
+            </tr>
+            <tr>
+                <th>Produto 2</th>
+                <td>000</td>
+                <td>000</td>
+                <td>000</td>
+                <td>000</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
