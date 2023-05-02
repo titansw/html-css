@@ -11,10 +11,11 @@ body {
     background-size: cover;
     text-align: center;
     font-family: 'Spectral', serif;
+    display: grid;
+    place-content: center;
 }
 
 h1 {
-    padding-top: 275px;
     font-family: 'Beth Ellen';
     font-weight: 400;
     font-size: 64px;

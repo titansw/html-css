@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            background: gray;
+            padding: 50px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: .8rem;
+        }
+        
+        #menu-box{
+            color: white;
+            background: blue;
+            padding: .8rem;
+            border-radius: 10%;
+        }
+        header > nav > ul > li > a, a{
+            text-decoration: none;
+            color: black;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">LOGO</a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#" id="menu-box">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
+
+<!-- 
+Crie o headeder um site que contenha uma logo e um menu.
+Um elemento deverá ficar ao lado do outro.
+A logo que ficará na extrema esquerda e o menu ficará na extrema direita.
+Os itens do menu ficarão um ao lado do outro, com um espaço de .8rem entre eles.
+O último elemento do menu será um botão de contato e você utilizar o seletor :last-child para estilizar. 
+-->
