@@ -1,0 +1,20 @@
+const { EventEmitter } = require('events')
+const ev = new EventEmitter()
+
+// Fica escutando 
+ev.on('saySomething', (message) => {
+    console.log('Eu ouvi vc: ', message);
+})
+
+ev.emit('saySomething', 'Mike')
+ev.emit('saySomething', 'João')
+ev.emit('saySomething', 'Camila')
+
+// Ativa somente 1 vez --------------------------------------------
+
+ev.once('say', (message) => {
+    console.log('Eu ouvi vc: ', message);
+})
+
+ev.emit('say', 'Uma')
+ev.emit('say', 'Duas')
