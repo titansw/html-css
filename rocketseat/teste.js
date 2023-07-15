@@ -1,1 +1,7 @@
-exercism configure --token=f5a6e7a5-c3cc-4688-9e33-5ccee350bebb
+const https = require('https')
+const api = 'https://api.github.com/users/maykbrito'
+
+https.get(api, res =>{
+    console.log(res.statusCode);
+})
+console.log('conectando api');

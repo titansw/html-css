@@ -1,0 +1,22 @@
+{
+    "nome": "Jakeliny Gracielly",
+    "cidade": "São Paulo",
+    "Telefone": 987654321,
+    "Livros_favoritos": [
+        "neuromancer",
+        "codigo limpo"
+    ],
+    "hobbies": {
+        "semana": "patinação",
+        "fim_de_semana": {
+            "sabado": "cinema",
+            "domingo": "parque",
+            "outros": [
+                "caminhada",
+                "volei",
+                "netflix"
+            ]
+        }
+    },
+    "teste": true
+}
