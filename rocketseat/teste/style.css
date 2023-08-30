@@ -44,17 +44,12 @@ div.campo {
     font-size: 16px;
 }
 
-
-
 div.resultado {
-    height: 285px;
+    height: 230px;
     width: 285px;
 
-    min-height: 285px;
+    min-height: 230px;
     min-width: 285px;
-
-
-    
 
     background-color: #735BF2;
     color: #fff;

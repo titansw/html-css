@@ -26,15 +26,15 @@ function chamado() {
 
 
                 for (let i in data) {
-                    linha = document.createElement("p")
-                    linha.classList = "oi"
+                    if (i != 'ibge' && i != 'gia' && i != 'siafi') {
+                        linha = document.createElement("p")
+                        linha.classList = "linha"
 
-                    result.appendChild(linha)
+                        result.appendChild(linha)
 
-                    linha.textContent += `${i[0].toUpperCase() + i.slice(1)}: ${data[i]}`
-
+                        linha.textContent += `${i[0].toUpperCase() + i.slice(1)}: ${data[i]} `
+                    }
                 }
-
             }
         })
         .catch(error => console.error(error))
