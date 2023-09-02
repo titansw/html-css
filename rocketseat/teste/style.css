@@ -2,17 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
-body{
+body {
     background-color: #131516;
 }
 
 div.campo {
     text-align: center;
     margin-top: 200px;
-
 }
 
 .campo>input {
@@ -52,7 +50,6 @@ div.resultado {
     min-width: 285px;
 
     background-color: #735BF2;
-    color: #fff;
 
     border-radius: 10px;
     margin: 20px 10px;
@@ -67,22 +64,26 @@ div.resultado {
 }
 
 .resultado>a {
-    background-color: #EA4C89; /* Green */
+    background-color: #EA4C89;
+
+    display: inline-block;
     border: none;
     border-radius: 10px;
     margin-bottom: 10px;
-    color: white;
+    
     padding: 15px 32px;
+
+    color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 15px;
 }
 
 .resultado>p {
-    font-size: 16px;
+    color: #ffffff;
+
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
 
     -webkit-font-smoothing: antialiased;
 }
-

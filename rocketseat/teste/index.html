@@ -15,9 +15,12 @@
 
 <body>
     <div class="campo">
-        <input type="number" name="cep" id="cep" placeholder="Digite seu cep:" required>
+        <input type="number" name="cep" id="cep" placeholder="Digite seu cep: 12345678" 
+            onkeypress="return onlyNumber(event, this.value)" required>
         <button type="submit" onclick="chamado()">Pesquisar</button>
     </div>
+
+
 </body>
 
 </html>
